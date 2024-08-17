@@ -5,7 +5,7 @@ import streamlit as st
 # Leer el archivo CSV en un DataFrame
 @st.cache
 def load_data():
-    ruta_completa = '/Users/camilomorales/Mi-proyecto-6/vehicles_us.csv'
+    ruta_completa = './notebooks/vehicles_us.csv'
     return pd.read_csv(ruta_completa)
 
 car_data = load_data()
