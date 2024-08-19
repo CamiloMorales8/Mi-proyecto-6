@@ -10,6 +10,7 @@ def load_data():
 
 car_data = load_data()
 
+
 # Crear el contenido de la aplicación
 st.header('Explorador de Datos de Vehículos')
 
